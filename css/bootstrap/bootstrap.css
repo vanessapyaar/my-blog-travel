@@ -7354,9 +7354,4 @@ a.text-dark:hover, a.text-dark:focus {
 
    
 
-  @media only screen and (max-width: 600px) {
-    h1.text-white.heading.text-uppercase.aos-init.aos-animate {
-      font-size: 5vh;
-      margin-top: 19vh;
-  }
-  }
+ 
