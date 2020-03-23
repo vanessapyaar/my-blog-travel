@@ -1721,3 +1721,13 @@ html {
     -ms-flex-item-align: stretch !important;
     -ms-grid-row-align: stretch !important;
     align-self: stretch !important; } }
+
+
+
+
+    @media only screen and (max-width: 600px) {
+      .col-md-7.text-center {
+        margin-top: 88px;
+      }
+  
+    }
