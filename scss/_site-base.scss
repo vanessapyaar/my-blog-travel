@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5,
 
 
 .bg-image {
-	background-size: cover;
+	background-size: auto 100vh;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -290,8 +290,9 @@ h1, h2, h3, h4, h5,
 
 .bg-image {
 	@media only screen and (max-width: 768px) {	
-	width: 100%;
-	height: auto; 
+		width: auto ;
+		max-width: 100% ;
+		height: auto ;
 	}
 }
 
