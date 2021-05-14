@@ -288,6 +288,13 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+.bg-image {
+	@media only screen and (max-width: 768px) {	
+	width: 100%;
+	height: auto; 
+	}
+}
+
 .img-md-fluid {
 	@include media-breakpoint-down(md) {
 		max-width: 100%;
