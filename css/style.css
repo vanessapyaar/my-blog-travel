@@ -8,7 +8,8 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 
   .bg-image {
 		width: auto;
-		height: 100vh ;
+		height: 100vh !important;
+    background-size: auto !important;
 	}
   }
 
@@ -16,7 +17,4 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 /*# sourceMappingURL=style.css.map */
 
 
-.bg-image {
-		width: auto;
-		height: 100vh ;
-	}
+ 
