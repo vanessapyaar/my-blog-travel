@@ -5,6 +5,11 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
       font-size: 5vh;
       margin-top: 19vh;
   }
+
+  .bg-image {
+		width: auto;
+		height: 100vh ;
+	}
   }
 
   
@@ -12,8 +17,6 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 
 
 .bg-image {
-	@media only screen and (max-width: 768px) {	
 		width: auto;
 		height: 100vh ;
 	}
-}
