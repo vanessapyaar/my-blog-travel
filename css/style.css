@@ -886,8 +886,8 @@ h5 {
 }
 @media (max-width: 991.98px) {
   .main-content .container-fluid {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .main-content .photos .photo-item {
@@ -949,8 +949,7 @@ h5 {
 }
 @media (max-width: 575.98px) {
   .main-content .photos .photo-item img {
-    height: 300px;
-    margin-top: 8px;
+    height: 200px;
   }
 }
 .main-content .photos .photo-item:hover:after {
@@ -1026,12 +1025,9 @@ h5 {
 .site-section-hero,
 .site-section-hero .row {
   height: 100vh;
+  min-height: 500px;
   z-index: 2;
   position: relative;
-  margin-bottom: 8px;
-  background-position: top center;
-  background-size: 100%;
-  width: 100%;
 }
 .site-section-hero .heading {
   font-size: 2.5rem;
@@ -1320,9 +1316,12 @@ h5 {
   }
 
   p.lead.text-white.mb-5.aos-init.aos-animate {
-    font-size: 5vw;
-    top: -1em;
+    font-size: 2em;
+    top: -2em;
     position: absolute;
+    max-width: 62vw;
+    margin: 0 auto;
+    margin-left: 20vw;
   }
 }
 
