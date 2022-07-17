@@ -1026,11 +1026,12 @@ h5 {
 .site-section-hero,
 .site-section-hero .row {
   height: 100vh;
-  min-height: 500px;
   z-index: 2;
   position: relative;
   margin-bottom: 8px;
   background-position: top center;
+  background-size: 100%;
+  width: 100%;
 }
 .site-section-hero .heading {
   font-size: 2.5rem;
@@ -1319,7 +1320,7 @@ h5 {
   }
 
   p.lead.text-white.mb-5.aos-init.aos-animate {
-    font-size: 36px;
+    font-size: 5vw;
     top: -1em;
     position: absolute;
   }
